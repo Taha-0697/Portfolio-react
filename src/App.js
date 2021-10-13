@@ -14,7 +14,8 @@ function App() {
           designation="Cheif Operation Officer"
           details="  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat earum, necessitatibus, aut assumenda itaque tenetur corporis cum reiciendis suscipit debitis expedita quas minus delectus nobis aspernatur voluptas odit, nesciunt consectetur ipsam id vitae alias. Nemo culpa rerum ipsum exercitationem necessitatibus!"
           university="Fast University"
-          certification="Certification"
+          year ="0000 - 0000"
+          // certification="Certification"
           skills={skills}
         />
       </div>

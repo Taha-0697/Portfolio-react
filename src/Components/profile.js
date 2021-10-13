@@ -30,27 +30,24 @@ const profile = ({ skills, ...props }) => {
           <div className="whatsapp_link">
             <a href="https://wa.me/923042009909">
               <span className="whatsapp">
-                {" "}
-                <BsWhatsapp />{" "}
-              </span>{" "}
+                <BsWhatsapp />
+              </span>
               <span>+92 304 200 9909</span>
             </a>
           </div>
           <div className="email_link">
             <a href="mailto:Usman.Rehan@altafseer.pk">
               <span className="email">
-                {" "}
-                <AiOutlineMail />{" "}
-              </span>{" "}
+                <AiOutlineMail />
+              </span>
               <span>Usman.Rehan@altafseer.pk</span>
             </a>
           </div>
           <div className="phone_link">
             <a href="tel:923042009909">
               <span className="phone">
-                {" "}
-                <BsTelephone />{" "}
-              </span>{" "}
+                <BsTelephone />
+              </span>
               <span>+92 304 200 9909</span>
             </a>
           </div>
@@ -66,7 +63,7 @@ const profile = ({ skills, ...props }) => {
             <p>{props.details}</p>
           </div>
           <div className="educations">
-            <p>{props.university}</p>
+            <p><b> {props.university} ({props.year}) </b> </p>
             <p className="certifications">{props.certification}</p>
           </div>
           <div className="skills">

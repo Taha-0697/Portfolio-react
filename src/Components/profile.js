@@ -28,30 +28,27 @@ const profile = ({ skills, ...props }) => {
         </div>
         <div className="contact_media">
           <div className="whatsapp_link">
-            <a href="https://wa.me/923042009909">
+            <a href="https://wa.me/923012463203" target="blank">
               <span className="whatsapp">
-                {" "}
-                <BsWhatsapp />{" "}
-              </span>{" "}
-              <span>+92 304 200 9909</span>
+                <BsWhatsapp />
+              </span>
+              <span>+92 301 246 3203</span>
             </a>
           </div>
           <div className="email_link">
             <a href="mailto:Usman.Rehan@altafseer.pk">
               <span className="email">
-                {" "}
-                <AiOutlineMail />{" "}
-              </span>{" "}
-              <span>Usman.Rehan@altafseer.pk</span>
+                <AiOutlineMail />
+              </span>
+              <span>TahaChughtai@Altafseer.pk</span>
             </a>
           </div>
           <div className="phone_link">
-            <a href="tel:923042009909">
+            <a href="tel:923012463203">
               <span className="phone">
-                {" "}
-                <BsTelephone />{" "}
-              </span>{" "}
-              <span>+92 304 200 9909</span>
+                <BsTelephone />
+              </span>
+              <span>+92 301 246 3203</span>
             </a>
           </div>
         </div>
@@ -66,7 +63,7 @@ const profile = ({ skills, ...props }) => {
             <p>{props.details}</p>
           </div>
           <div className="educations">
-            <p>{props.university}</p>
+            <p> <b> {props.university}  ({props.year}) </b></p>
             <p className="certifications">{props.certification}</p>
           </div>
           <div className="skills">
@@ -83,6 +80,11 @@ const profile = ({ skills, ...props }) => {
           <h3 className="ach">My Achievements / Projects</h3>
 
           <Projects
+            logo="http://3.1.87.109/uc/wp-content/uploads/2019/06/Circle-logo.png"
+            title="Urbxn Central"
+            details="Our urban events platform provides you with a unique and personalised experience, from searching for the right event for you using our unique filtering system, to suggesting events based on previous tickets bought, to giving you direct contact to organisers via our live chat feature we aim to provide the best experience for both our customers and our event organisers."
+          />
+          {/* <Projects
             logo="https://static.vecteezy.com/system/resources/thumbnails/000/596/678/small/mei_022019-10.jpg"
             title="Project Title"
             details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aspernatur itaque, quisquam distinctio temporibus beatae ducimus ad cumque in facilis molestias, libero aliquam modi totam natus ex eos quasi non voluptatem. Maiores similique repellendus beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, debitis! Minus ipsam impedit doloribus ullam quo fuga pariatur expedita similique magni hic totam sunt eligendi, tempora nostrum debitis facilis vero?35"
@@ -91,12 +93,7 @@ const profile = ({ skills, ...props }) => {
             logo="https://static.vecteezy.com/system/resources/thumbnails/000/596/678/small/mei_022019-10.jpg"
             title="Project Title"
             details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aspernatur itaque, quisquam distinctio temporibus beatae ducimus ad cumque in facilis molestias, libero aliquam modi totam natus ex eos quasi non voluptatem. Maiores similique repellendus beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, debitis! Minus ipsam impedit doloribus ullam quo fuga pariatur expedita similique magni hic totam sunt eligendi, tempora nostrum debitis facilis vero?35"
-          />
-          <Projects
-            logo="https://static.vecteezy.com/system/resources/thumbnails/000/596/678/small/mei_022019-10.jpg"
-            title="Project Title"
-            details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aspernatur itaque, quisquam distinctio temporibus beatae ducimus ad cumque in facilis molestias, libero aliquam modi totam natus ex eos quasi non voluptatem. Maiores similique repellendus beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, debitis! Minus ipsam impedit doloribus ullam quo fuga pariatur expedita similique magni hic totam sunt eligendi, tempora nostrum debitis facilis vero?35"
-          />
+          /> */}
         </div>
       </section>
     </div>

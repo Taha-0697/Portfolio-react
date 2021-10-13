@@ -20,11 +20,15 @@
   width: 130px;
   margin-right: 20px;
 }
+.title-projects .title h3 {
+  margin-top: 45px;
+}
 .title-projects .btn-download {
   flex-grow: 1;
   text-align: end;
 }
 .title-projects .btn-download button {
+  margin-top: 35px;
   padding: 10px;
   width: 35%;
   font-family: "Raleway", sans-serif;
